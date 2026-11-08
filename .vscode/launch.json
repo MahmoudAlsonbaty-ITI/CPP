@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Selected Lab",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "terminal": "integrated",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "C/C++: Build Selected Lab"
+        }
+    ]
+}
